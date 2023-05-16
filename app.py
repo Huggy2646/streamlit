@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 # st.write(x,"squared is",x*x)
 
 
-# df = pd.DataFrame(np.random.randn(500,2)/[50,50]+[30,30]+[37.76,-122.4],columns=['lat','lon'])
-# st.map(df)
+df = pd.DataFrame(np.random.randn(500,2)/[50,50]+[30,30]+[37.76,-122.4],columns=['lat','lon'])
+st.map(df)
 
 rnad = np.random.normal(1,2,size=20)
 fig,ax=plt.subplots()
